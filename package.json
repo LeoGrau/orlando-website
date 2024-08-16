@@ -13,6 +13,7 @@
     "@primevue/themes": "^4.0.4",
     "@types/node": "^22.3.0",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "primeicons": "^7.0.0",
     "primevue": "^4.0.4",
     "tailwindcss-primeui": "^0.3.4",
     "vue": "^3.4.35",

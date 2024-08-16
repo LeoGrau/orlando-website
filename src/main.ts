@@ -6,6 +6,11 @@ import PrimeVue from 'primevue/config'
 import './style.css'
 import App from './App.vue'
 
+// Primevue Components
+import Button from 'primevue/button'
+
+// Primevue Icons
+import 'primeicons/primeicons.css'
 
 // Primevue Theme
 import Lara from "@primevue/themes/lara"
@@ -77,5 +82,7 @@ updatePreset({
     }
   }
 })
+
+app.component('pv-button', Button)
 
 app.mount("#app")

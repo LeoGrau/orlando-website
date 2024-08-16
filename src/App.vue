@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <toolbar-or></toolbar-or>
+  <div class="relative">
+    <toolbar-or class=""></toolbar-or>
     <router-view></router-view>
   </div>
 </template>
