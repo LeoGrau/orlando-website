@@ -37,10 +37,10 @@
     <div class="text-white" >Esta pagina fue creada por Kipuh!</div>
     <div class="text-white">
   <a href="https://www.facebook.com/PolleriaOrlando?locale=es_LA" target="_blank" rel="noopener noreferrer">
-    <i class="pi pi-facebook mr-3"></i>
+    <i class="pi pi-facebook mr-3 text-blue-400 text-3xl"></i>
   </a>
   <a href="https://wa.me/51978800056" target="_blank" rel="noopener noreferrer">
-    <i class="pi pi-whatsapp"></i>
+    <i class="pi pi-whatsapp text-green-400 text-3xl"></i>
   </a>
 </div>
     </div>
