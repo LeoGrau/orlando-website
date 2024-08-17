@@ -8,6 +8,7 @@ import App from './App.vue'
 
 // Primevue Components
 import Button from 'primevue/button'
+import Carousel from 'primevue/carousel';
 
 // Primevue Icons
 import 'primeicons/primeicons.css'
@@ -84,5 +85,6 @@ updatePreset({
 })
 
 app.component('pv-button', Button)
+app.component('pv-carousel', Carousel)
 
 app.mount("#app")

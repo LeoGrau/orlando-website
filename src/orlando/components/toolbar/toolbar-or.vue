@@ -1,8 +1,8 @@
 <template>
-  <div class="fixed w-full">
+  <div class="fixed w-full z-50">
     <div class="bg-black text-surface-50 px-4 flex justify-between items-center py-2 h-[80px]">
     <img src="" alt="orlando logo" />
-    <ul class="hidden md:flex gap-4 text-sm">
+    <ul class="hidden md:flex gap-4 text-base">
       <li v-for="option in options">{{ option.labelName }}</li>
     </ul>
     <pv-button
@@ -12,10 +12,10 @@
       @click="toggleOptions = !toggleOptions"
     ></pv-button>
   </div>
-  <div class="md:hidden bg-black w-full pt-3 overflow-hidden duration-200" :class="{'h-[0px]': !toggleOptions, 'h-[144px]': toggleOptions}">
-    <ul class="flex text-sm flex-col text-white">
-      <li v-for="option in options" class="p-3 hover:bg-zinc-700 cursor-pointer text-sm">
-        <p class="text-center">{{ option.labelName }}</p>
+  <div class="md:hidden bg-black w-full pt-3 overflow-hidden duration-200" :class="{'h-[0px]': !toggleOptions, 'h-[156px]': toggleOptions}">
+    <ul class="flex flex-col text-white">
+      <li v-for="option in options" class="p-3 hover:bg-zinc-700 cursor-pointer">
+        <p class="text-center text-base">{{ option.labelName }}</p>
       </li>
     </ul>
   </div>
