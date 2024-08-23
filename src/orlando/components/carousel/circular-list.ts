@@ -24,11 +24,10 @@ class RoundedList<T> {
   }
   push(value: T) {
     const _add = (value: T, currentNode: RoundedNode<T>) => {
-      console.log("why", currentNode)
       if(currentNode === null) {
         currentNode = new RoundedNode<T>(value)
+        console.log('currentNode', currentNode)
       } else {
-        console.log("ass",currentNode.next!)
         _add(value, currentNode.next!)
       }
     }
