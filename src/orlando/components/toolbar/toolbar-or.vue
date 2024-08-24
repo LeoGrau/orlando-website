@@ -1,7 +1,7 @@
 <template>
   <div class="fixed w-full z-50">
     <div class="bg-black text-surface-50 px-4 flex justify-between items-center py-2 h-[80px]">
-    <img src="" alt="orlando logo" />
+    <img width="200" src="https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/logos/logo-orlandos.png" alt="orlando logo" />
     <ul class="hidden md:flex gap-4 text-base">
       <li v-for="option in options">{{ option.labelName }}</li>
     </ul>
