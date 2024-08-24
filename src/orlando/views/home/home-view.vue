@@ -6,8 +6,7 @@
 </template>
 <script setup lang="ts">
 import MainCarouselOr from '@/orlando/components/carousel/main-carousel-or.vue';
-import footerOr from '@/orlando/components/footer/footer-or.vue';
-
+import FooterOr from '@/orlando/components/footer/footer-or.vue';
 </script>
 <style lang="">
   
