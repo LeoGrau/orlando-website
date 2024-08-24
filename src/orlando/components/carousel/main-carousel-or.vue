@@ -1,7 +1,7 @@
 <template>
   <div class="main-carousel-bar h-[70vh] bg-red-800 overflow-hidden relative">
     <div
-      class="flex w-max bg-blue-600 transition ease-in-out transition-ease-in-out h-full absolute z-50"
+      class="flex w-max bg-black transition ease-in-out transition-ease-in-out h-full absolute z-50"
       :style="{ transform: `translateX(calc(-100vw * ${imageP}))` }"
     >
       <img
@@ -32,14 +32,10 @@
   </div>
 </template>
 <script lang="ts" setup>
-import RoundedLinkedList from "../../data-structure/rounded-linked-list";
 import { onMounted, ref } from "vue";
-const imageCarousel = ref(new RoundedLinkedList<any>());
 
 const imageQueueCarousel = ref([] as Array<{ imageUrl: string }>);
-const imageC = ref(0);
 const imageP = ref(0);
-const currentImage = ref<HTMLElement | null>(null);
 
 // Interval
 const imageSliderI = ref();
@@ -58,24 +54,17 @@ const imageSet = ref([
   {
     id: 2,
     imageUrl:
-      "https://media.revistagq.com/photos/63edfa0ecf53bfbacf6f6580/16:9/w_2560%2Cc_limit/spider-man-4-tom-holland.jpg",
+      "https://polleriaslagranja.com/wp-content/uploads/2022/10/La-Granja-Real-Food-Chicken-Granja-Chicharron.png",
   },
   {
     id: 3,
     imageUrl:
-      "https://wallpapers.com/images/featured/spiderman-p4ashmgeamn2mvkn.jpg",
+      "https://polleriaslagranja.com/wp-content/uploads/2022/10/La-Granja-Real-Food-Chicken-Granja-Chicharron.png",
   },
 ]);
 
 const imageSetLength = ref(imageSet.value.length);
 
-function setImages() {
-  console.log(imageCarousel.value);
-  imageCarousel.value.add(9);
-  imageCarousel.value.add(12);
-  imageCarousel.value.add(19);
-  console.log(imageCarousel.value);
-}
 
 function updateImageP() {
   console.log("xd", imageSetLength.value);
