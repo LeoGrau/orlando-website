@@ -12,3 +12,17 @@
 * {
   font-family: 'Fira Sans', sans-serif;
 }
+
+:root {
+
+  --p-tabs-tab-active-border-color: orangered;
+
+}
+
+.p-tab {
+  border-width: 0;
+}
+
+.p-tab-active {
+  border-width: 4px 0px 0px 0px;
+}
