@@ -8,7 +8,7 @@
           <h1 class="text-xl underlinediv text-white">Nosotros</h1>
         </div>
         <div>
-          <p class="text-white text-justify my-1">
+          <p class="text-white text-justify my-1 text-xs md:text-base">
             En "Orlando", llevamos más de 50 años dedicados a ofrecer el mejor
             chicharrón de pollo y pollo a la brasa en Nasca, acompañado de
             nuestra exclusiva Salsa 7 Sabores y el auténtico ají de Nasca. Con
@@ -22,7 +22,7 @@
           <h1 class="text-xl underlinediv text-white">Servicios</h1>
         </div>
         <div>
-          <p class="text-white text-justify my-1">
+          <p class="text-white text-justify my-1 text-xs md:text-base">
             Ofrecemos un menú variado con nuestras especialidades en delicioso
             Pollo a la brasa 7 sabores y los crocantes chicharrones de pollo,
             disponibles para disfrutar en nuestros locales o a través de nuestro
@@ -35,7 +35,7 @@
           <h1 class="text-xl underlinediv text-white">Contáctanos</h1>
         </div>
         <div>
-          <p class="text-white text-justify my-1">
+          <p class="text-white text-justify my-1 text-xs md:text-base">
             Visítanos en nuestros locales en Vista Alegre y Nasca, donde siempre
             te recibiremos con los brazos abiertos. Puedes contactarnos para
             realizar pedidos o reservas, y seguirnos en nuestras redes sociales
