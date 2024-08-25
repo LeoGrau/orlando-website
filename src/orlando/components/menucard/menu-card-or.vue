@@ -1,7 +1,7 @@
 <template>
     <div class="h-max p-4">
-        <div class="w-full flex justify-center p-5" >
-            <h1 class="text-2xl font-bold" >Menu</h1>
+        <div class="w-full flex justify-center p-5">
+            <h1 class="text-2xl font-bold">Menu</h1>
         </div>
         <pv-tabs value="0">
             <div class="flex w-full justify-center ">
@@ -16,7 +16,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                         <div v-for="foodItem in topSevenFavorites"
                             class="flex items-center justify-evenly shadow-md  rounded-md p-3 border-zinc-100 border">
-                            <img class="w-1/3" :src="foodItem.imageUrl" alt="Mostrito" />
+                            <img class="w-1/3" :src="foodItem.imageUrl"  />
                             <div class="flex flex-col justify-center items-center">
                                 <span class="text-lg font-medium text-black">
                                     {{ foodItem.name }}</span>
@@ -28,7 +28,39 @@
                     </div>
                 </pv-tab-panel>
                 <pv-tab-panel value="1">
-                    
+                <div class="w-full p-3 flex justify-center items-center font-semibold">
+                        <h1 class="text-xl">Chaufa a la Carta!</h1>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                        <div v-for="menuItem in chaufaItems"
+                            class="flex items-center justify-evenly shadow-md rounded-md p-3 border-zinc-100 border">
+                            <img class="w-1/3" :src="menuItem.imageUrl"  />
+                            <div class="flex flex-col justify-center items-center">
+                                <span class="text-lg font-medium text-black">
+                                    {{ menuItem.name }}</span>
+                                <span
+                                    class="text-md flex items-center justify-center text-white font-medium px-5 py-2 bg-red-600 rounded-full">
+                                    {{ currency.symbol + "" + menuItem.price }} </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full p-3 flex justify-center items-center font-semibold">
+                        <h1 class="text-xl">Sopas</h1>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+
+                        <div v-for="menuItem in soupItems"
+                            class="flex items-center justify-evenly shadow-md rounded-md p-3 border-zinc-100 border">
+                            <img class="w-1/3" :src="menuItem.imageUrl" />
+                            <div class="flex flex-col justify-center items-center">
+                                <span class="text-lg font-medium text-black">
+                                    {{ menuItem.name }}</span>
+                                <span
+                                    class="text-md flex items-center justify-center text-white font-medium px-5 py-2 bg-red-600 rounded-full">
+                                    {{ currency.symbol + "" + menuItem.price }} </span>
+                            </div>
+                        </div>
+                    </div>
                 </pv-tab-panel>
                 <pv-tab-panel value="2">
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -106,6 +138,30 @@ const topSevenFavorites = ref([
     },
 ] as Array<FoodItem>);
 
+const chaufaItems = ref([
+
+    { imageUrl:"https://upload.wikimedia.org/wikipedia/commons/b/ba/Aeropuerto_30042010.JPG", name: "Aeropuerto pollo", price: 18 },
+    { imageUrl:"https://www.comedera.com/wp-content/uploads/2022/05/aereopuero-receta-peruana-500x500.jpg",name: "Aeropuerto carne", price: 20 },
+    { imageUrl:"https://elchaparral.com.pe/archivos/producto/56-54-tallarin-saltado-de-pollo-muestra.png",name: "Tallarín criollo pollo", price: 20 },
+    { imageUrl:"https://img.freepik.com/fotos-premium/comida-peruana-pollo-saltado-papas-fritas-pollo-sazonado-cebollas-tomates-verduras-asadas-arros-blancos-plato-blanco_136753-120.jpg",name: "Pollo saltado", price: 20 },
+    { imageUrl:"https://rikotonchicken.pe/wp-content/uploads/2023/06/05.png",name: "Tallarín criollo carne", price: 22 },
+    { imageUrl:"https://www.record.com.pe/wp-content/uploads/2021/07/Lomo-Saltado-1.png",name: "Lomo saltado", price: 22 },
+    { imageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/0f/22/ac/a1/pechuga-de-pollo-a-la.jpg",name: "Pechuga plancha", price: 22 },
+    { imageUrl:"https://www.madamtusan.com.pe/Multimedia/productos/twitter/TALLARINDEPOLLOENTROZOSCONVERDURAS_V1.PNG",name: "Tallarín c/ verduras (fideo frito + 3 soles)", price: 22 },
+] as Array<FoodItem>);
+
+const soupItems = ref([
+    { imageUrl:"https://tofuu.getjusto.com/orioneat-prod/TrbaakvbkufSLgX6S-CaldoSinPresa.jpg",name: "Caldo sin presa", price: 10 },
+    { imageUrl:"https://cdn0.recetasgratis.net/es/posts/5/1/4/sopa_a_la_minuta_de_pollo_75415_orig.jpg", name: "Sopa minuta pollo", price: 15 },
+    { imageUrl:"https://w7.pngwing.com/pngs/47/302/png-transparent-chicken-soup-solyanka-pea-soup-cafe-chicken-soup-food-animals-thumbnail.png",name: "Sustancia pollo", price: 15 },
+    { imageUrl:"https://w7.pngwing.com/pngs/567/952/png-transparent-chicken-soup-chicken-sandwich-wrap-chick-fil-a-chicken-meat-soup-soup-food-recipe.png",name: "Dieta de pollo", price: 15 },
+    { imageUrl:"https://tofuu.getjusto.com/orioneat-prod/nhCvbEpcgADbu2fGz-CHINO%20WONG-45.jpg",name: "Sopa de kion", price: 15 },
+    { imageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/1b/7c/a8/ce/caldo-de-gallina-en-corral.jpg",name: "Caldo de gallina", price: 16 },
+    { imageUrl:"https://recetas.7maravillasgastronomicas.com/wp-content/uploads/2013/09/sustancia-de-carne.jpg",name: "Sustancia carne", price: 17 },
+    { imageUrl:"https://express.donangelo.pe/wp-content/uploads/2022/08/sopa-a-la-minuta.jpg",name: "Sopa minuta carne", price: 17 },
+
+] as Array<FoodItem>);
+
 const drinks = ref([
     {
         imageUrl:
@@ -155,9 +211,7 @@ const drinks = ref([
         name: "Pisco y Vinos",
         price: 28,
     },
-    
+
 ] as Array<FoodItem>);
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>
