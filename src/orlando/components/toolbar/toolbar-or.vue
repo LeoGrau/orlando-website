@@ -17,7 +17,7 @@
   <div class="md:hidden bg-black w-full pt-3 overflow-hidden duration-200" :class="{'h-[0px]': !toggleOptions, 'h-[64px]': toggleOptions}">
     <ul class="flex flex-col text-white">
       <li v-for="option in options" class="p-3 hover:bg-zinc-700 cursor-pointer">
-        <p class="text-center text-base">{{ option.labelName }}</p>
+        <a :href="option.href" class="flex justify-center">{{ option.labelName }}</a>
       </li>
     </ul>
   </div>
