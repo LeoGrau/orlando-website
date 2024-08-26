@@ -1,14 +1,14 @@
 <template>
   <div
-    class="w-full bg-black h-max flex justify-center items-center flex-col p-5"
+    class="w-full bg-black flex justify-center items-center flex-col p-5 h-max"
   >
     <div class="flex flex-row justify-evenly gap-2">
       <div class="w-1/3 p-4">
         <div>
-          <h1 class="text-xl underlinediv text-white">Nosotros</h1>
+          <h1 class="text-lg underlinediv text-white">Nosotros</h1>
         </div>
         <div>
-          <p class="text-white text-justify my-1 text-xs md:text-base">
+          <p class="text-white text-justify my-1 text-sm">
             En Orlando, con más de 50 años de tradición en el mercado, 
             nos enorgullece ofrecer el chicharrón de pollo más crocante y 
             riquísimo, junto con el mejor pollo a la brasa de Nasca. Todo 
@@ -21,7 +21,7 @@
           <h1 class="text-xl underlinediv text-white">Servicios</h1>
         </div>
         <div>
-          <p class="text-white text-justify my-1 text-xs md:text-base">
+          <p class="text-white text-justify my-1 text-sm">
             Ofrecemos un menú variado con nuestras especialidades en delicioso
             Pollo a la brasa 7 sabores y los crocantes chicharrones de pollo,
             disponibles para disfrutar en nuestros locales o a través de nuestro
@@ -34,7 +34,7 @@
           <h1 class="text-xl underlinediv text-white">Contáctanos</h1>
         </div>
         <div>
-          <p class="text-white text-justify my-1 text-xs md:text-base">
+          <p class="text-white text-justify my-1 text-sm">
             Visítanos en nuestros locales en Vista Alegre y Nasca, donde siempre
             te recibiremos con los brazos abiertos. Puedes contactarnos para
             realizar pedidos o reservas, y seguirnos en nuestras redes sociales
