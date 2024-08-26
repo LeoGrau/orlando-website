@@ -3,7 +3,9 @@
     <div class="bg-black text-surface-50 px-4 flex justify-between items-center py-2 h-[80px]">
     <img width="200" src="https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/logos/logo-orlandos.png" alt="orlando logo" />
     <ul class="hidden md:flex gap-4 text-base">
-      <li v-for="option in options">{{ option.labelName }}</li>
+      <li v-for="option in options" :key="option.id">
+          <a :href="option.href" class="text-lg hover:underline">{{ option.labelName }}</a>
+        </li>
     </ul>
     <pv-button
       icon="pi pi-list"
@@ -12,7 +14,7 @@
       @click="toggleOptions = !toggleOptions"
     ></pv-button>
   </div>
-  <div class="md:hidden bg-black w-full pt-3 overflow-hidden duration-200" :class="{'h-[0px]': !toggleOptions, 'h-[156px]': toggleOptions}">
+  <div class="md:hidden bg-black w-full pt-3 overflow-hidden duration-200" :class="{'h-[0px]': !toggleOptions, 'h-[64px]': toggleOptions}">
     <ul class="flex flex-col text-white">
       <li v-for="option in options" class="p-3 hover:bg-zinc-700 cursor-pointer">
         <p class="text-center text-base">{{ option.labelName }}</p>
@@ -29,8 +31,9 @@ const toggleOptions = ref(false)
 
 // Variables
 const options = ref([
-  { labelName: 'Inicio', id: 1 }, { labelName: 'Carta', id: 2 }, { labelName: 'Promociones', id: 3 }
-] as Array<{ labelName: string; id: number }>);
+  // { labelName: 'Inicio', id: 1 }, { labelName: 'Carta', id: 2 }, { labelName: 'Promociones', id: 3 } future
+  { labelName: 'Carta', id: 1, href:'#menu-card' },
+] as Array<{ labelName: string; id: number,href:string }>);
 
 
 

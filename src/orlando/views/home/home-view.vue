@@ -1,7 +1,7 @@
 <template>
   <div>
     <main-carousel-or></main-carousel-or>
-    <menu-card-or></menu-card-or>
+    <menu-card-or id="menu-card" ></menu-card-or>
     <footer-or></footer-or>
   </div>
 </template>

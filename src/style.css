@@ -14,9 +14,11 @@
 }
 
 :root {
-
   --p-tabs-tab-active-border-color: orangered;
+}
 
+html {
+  scroll-behavior: smooth;
 }
 
 .p-tab {
