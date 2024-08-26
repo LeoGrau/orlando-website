@@ -9,11 +9,10 @@
         </div>
         <div>
           <p class="text-white text-justify my-1 text-xs md:text-base">
-            En "Orlando", llevamos más de 50 años dedicados a ofrecer el mejor
-            chicharrón de pollo y pollo a la brasa en Nasca, acompañado de
-            nuestra exclusiva Salsa 7 Sabores y el auténtico ají de Nasca. Con
-            una tradición de sabor y calidad, brindamos a nuestros clientes una
-            experiencia única en un ambiente familiar y acogedor.
+            En Orlando, con más de 50 años de tradición en el mercado, 
+            nos enorgullece ofrecer el chicharrón de pollo más crocante y 
+            riquísimo, junto con el mejor pollo a la brasa de Nasca. Todo 
+            esto viene acompañado de nuestro auténtico ají casero, hecho con la receta secreta de la casa.
           </p>
         </div>
       </div>
