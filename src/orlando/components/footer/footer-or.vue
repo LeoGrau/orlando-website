@@ -3,19 +3,7 @@
     class="w-full bg-black flex justify-center items-center flex-col p-5 h-max"
   >
     <div class="flex flex-row justify-evenly gap-2">
-      <div class="w-1/3 p-4">
-        <div>
-          <h1 class="text-lg underlinediv text-white">Nosotros</h1>
-        </div>
-        <div>
-          <p class="text-white text-justify my-1 text-sm">
-            En Orlando, con más de 50 años de tradición en el mercado, 
-            nos enorgullece ofrecer el chicharrón de pollo más crocante y 
-            riquísimo, junto con el mejor pollo a la brasa de Nasca. Todo 
-            esto viene acompañado de nuestro auténtico ají casero, hecho con la receta secreta de la casa.
-          </p>
-        </div>
-      </div>
+      
       <div class="w-1/3 p-4">
         <div>
           <h1 class="text-xl underlinediv text-white">Servicios</h1>

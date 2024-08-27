@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import MainCarouselOr from '@/orlando/components/carousel/main-carousel-or.vue';
 import FooterOr from '@/orlando/components/footer/footer-or.vue';
-import MenuCardOr from '@/orlando/components/menucard/menu-card-or.vue';
+import MenuCardOr from '@/orlando/components/sections/menu-card-or.vue';
 import AboutUsSection from '@/orlando/components/sections/about-us-section.vue';
 </script>
 <style lang="">

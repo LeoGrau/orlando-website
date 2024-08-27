@@ -1,27 +1,55 @@
 <template>
-  <div class="bg-orange-200 flex gap-3 flex-col md:flex-row h-full">
-    <div class="md:w-1/2 py-9 px-5 self-center md:self-start h-full">
-      <h1 class="text-3xl text-center md:text-left">Nosotros</h1>
-      <div class="pt-3">
-        <p class="text-justify my-1 text-base">
-          En Orlando, con más de 50 años de tradición en el mercado, nos
-          enorgullece ofrecer el chicharrón de pollo más crocante y riquísimo,
-          junto con el mejor pollo a la brasa de Nasca. Todo esto viene
-          acompañado de nuestro auténtico ají casero, hecho con la receta
-          secreta de la casa.
-        </p>
+  <div
+    class="flex flex-col lg:flex-row h-full items-stretch max-h-[900px] overflow-hidden"
+  >
+    <div class="lg:w-1/2 bg-orange-200 p-6 flex">
+      <div class="h-full p-9 border-2 border-amber-800 flex">
+        <div class="self-center">
+          <div class="flex flex-col justify-center items-center text-amber-900">
+            <h1 class="text-4xl text-center md:text-left didact-gothic-regular">
+              Acerca de Nosotros
+            </h1>
+            <img
+              class="w-[50px]"
+              src="../../images/fork-and-knife-in-cross.svg"
+              alt=""
+            />
+          </div>
+          <div class="pt-3">
+            <p class="text-justify my-1 text-amber-900 text-lg">
+              En <strong>Orlando</strong>, con más de 50 años de tradición en el
+              mercado, nos enorgullece ofrecer el <strong>chicharrón</strong> de
+              pollo más crocante y riquísimo, una delicia que ha conquistado los
+              paladares de nuestros clientes a lo largo de las décadas. Además,
+              somos conocidos por servir el mejor pollo a la brasa de
+              <strong>Nasca</strong>, preparado con una receta que ha sido
+              perfeccionada y mantenida en secreto por generaciones.
+            </p>
+            <br />
+            <p class="text-justify my-1 text-amber-900 text-lg">
+              Pero eso no es todo. Cada plato viene acompañado de nuestro
+              auténtico ají casero, una explosión de sabores que realza cada
+              bocado. Este ají es preparado diariamente con ingredientes frescos
+              y locales, utilizando la receta secreta de la casa, que ha sido
+              transmitida de generación en generación, garantizando un sabor
+              único e inigualable.
+            </p>
+            <br />
+          </div>
+          <h1 class="text-center playwrite-cu-400 text-2xl text-amber-900">
+            " Sabores que cuentan historias, tradición en cada bocado. ""
+          </h1>
+        </div>
       </div>
     </div>
-    <div class="w-1/2 overflow-hidden h-[400px]">
+    <div class="lg:w-1/2 h-full flex justify-center overflow-hidden">
       <img
-        class="object-cover max-w-none h-[900px] w-[900px] translate-x-[-90px]"
-        src="https://scontent.flim15-1.fna.fbcdn.net/v/t39.30808-6/302610685_4959144554185508_5505558096497824795_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG6n2dzgf0HmGnrGiBg15h1GvFhk99Y9F0a8WGT31j0XUOb_FU7K_SNTgSRbsyke4G13R5Xc2moezEFxrypp2-O&_nc_ohc=HgiDNBR2SvkQ7kNvgEQMt-F&_nc_ht=scontent.flim15-1.fna&oh=00_AYCxYMuAlmem4UwHV9N4lO0q1xHvza6crbgh5iZKfr2eGw&oe=66D2A130"
+        class="object-cover max-w-none h-max"
+        src="https://cdn.discordapp.com/attachments/884260109700706345/1277852662829682709/302610685_4959144554185508_5505558096497824795_n.jpg?ex=66ceac88&is=66cd5b08&hm=60ca5fc60ac3a16cbccc5fab89e41249789b1b069fd2aad776c9e7c5d334db45&"
         alt=""
       />
     </div>
   </div>
 </template>
 <script setup lang="ts"></script>
-<style scoped>
-
-</style>
+<style scoped></style>
