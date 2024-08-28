@@ -44,8 +44,8 @@
     </div>
     <div class="lg:w-1/2 flex justify-center overflow-hidden">
       <img
-        class="object-cover max-w-none"
-        src="https://cdn.discordapp.com/attachments/884260109700706345/1277852662829682709/302610685_4959144554185508_5505558096497824795_n.jpg?ex=66ceac88&is=66cd5b08&hm=60ca5fc60ac3a16cbccc5fab89e41249789b1b069fd2aad776c9e7c5d334db45&"
+        class="object-cover max-w-none w-full"
+        src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2024/02/empleados-en-los-restaurantes-de-pollo.webp?fit=1000%2C706&ssl=1"
         alt=""
       />
     </div>

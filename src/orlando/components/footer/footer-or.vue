@@ -6,11 +6,11 @@
       
       <div class="w-full p-4">
         <div class="flex items-baseline gap-2">
-          <h1 class="text-3xl didact-gothic-regular text-yellow-500">Contáctanos</h1>
+          <h1 class="text-3xl didact-gothic-regular text-yellow-500 text-center">Contáctanos</h1>
           <i class="pi pi-phone text-yellow-500 text-xl"></i>
         </div>
         <div>
-          <p class="text-white text-justify my-1 text-sm">
+          <p class="text-white text-justify my-1 text-lg">
             Visítanos en nuestros locales en Vista Alegre y Nasca, donde siempre
             te recibiremos con los brazos abiertos. Puedes contactarnos para
             realizar pedidos o reservas, y seguirnos en nuestras redes sociales
@@ -43,7 +43,7 @@
         </div>
       </div>
     </div>
-    <div class="w-full flex flex-col items-center text-sm">
+    <div class="w-full flex flex-col items-center text-sm py-4">
       <span class="text-white">Esta pagina fue creada por Kipuh!</span>
       <span class="text-white">
         © 2024, Orlandos | Todos los derechos reservados

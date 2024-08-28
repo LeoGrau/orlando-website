@@ -2,20 +2,20 @@
   <div class="w-full bg-red-700 text-white px-4 py-10 flex flex-col items-center">
     <div class="flex gap-2 justify-center">
       <img src="../../images/food-frame-2-left.svg" class="w-1/8" alt="" />
-      <h1 class="didact-gothic-regular text-3xl">Nuestros Locales</h1>
+      <h1 class="didact-gothic-regular text-4xl">Nuestros Locales</h1>
       <img src="../../images/food-frame-2-right.svg" class="w-1/8" alt="" />
     </div>
-    <p class="text-justify py-5 px-4">
+    <p class="text-justify py-5 px-4 max-w-[1256px]">
       Visítanos en nuestros locales en Vista Alegre y Nasca, donde siempre te
       recibiremos con los brazos abiertos. Puedes contactarnos para realizar
       pedidos o reservas, y seguirnos en nuestras redes sociales para estar al
       tanto de nuestras promociones y novedades.
     </p>
-    <div class="grid grid-cols-2 p-4 gap-6">
+    <div class="flex flex-col md:grid md:grid-cols-2 p-4 gap-6">
       <a
         :href="local.GMapUrl"
         target="_blank"
-        class="flex flex-col relative cursor-pointer local-card"
+        class="flex flex-col relative cursor-pointer local-card max-w-[600px]"
         v-for="local in locals"
         :key="local.address"
       >
