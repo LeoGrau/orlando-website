@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col lg:flex-row h-full items-stretch max-h-[900px] overflow-hidden"
+    class="flex flex-col lg:flex-row h-full items-stretch overflow-hidden"
   >
     <div class="lg:w-1/2 bg-orange-200 p-6 flex">
       <div class="h-full p-9 border-2 border-amber-800 flex">
@@ -42,9 +42,9 @@
         </div>
       </div>
     </div>
-    <div class="lg:w-1/2 h-full flex justify-center overflow-hidden">
+    <div class="lg:w-1/2 flex justify-center overflow-hidden">
       <img
-        class="object-cover max-w-none h-max"
+        class="object-cover max-w-none"
         src="https://cdn.discordapp.com/attachments/884260109700706345/1277852662829682709/302610685_4959144554185508_5505558096497824795_n.jpg?ex=66ceac88&is=66cd5b08&hm=60ca5fc60ac3a16cbccc5fab89e41249789b1b069fd2aad776c9e7c5d334db45&"
         alt=""
       />

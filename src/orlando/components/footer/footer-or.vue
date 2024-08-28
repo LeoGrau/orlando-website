@@ -4,22 +4,10 @@
   >
     <div class="flex flex-row justify-evenly gap-2">
       
-      <div class="w-1/3 p-4">
-        <div>
-          <h1 class="text-xl underlinediv text-white">Servicios</h1>
-        </div>
-        <div>
-          <p class="text-white text-justify my-1 text-sm">
-            Ofrecemos un menú variado con nuestras especialidades en delicioso
-            Pollo a la brasa 7 sabores y los crocantes chicharrones de pollo,
-            disponibles para disfrutar en nuestros locales o a través de nuestro
-            servicio de entrega a domicilio.
-          </p>
-        </div>
-      </div>
-      <div class="w-1/3 p-4">
-        <div>
-          <h1 class="text-xl underlinediv text-white">Contáctanos</h1>
+      <div class="w-full p-4">
+        <div class="flex items-baseline gap-2">
+          <h1 class="text-3xl didact-gothic-regular text-yellow-500">Contáctanos</h1>
+          <i class="pi pi-phone text-yellow-500 text-xl"></i>
         </div>
         <div>
           <p class="text-white text-justify my-1 text-sm">
@@ -68,7 +56,7 @@
 
 <style scoped>
 .underlinediv {
-  border-bottom: 3px solid #ffcc00;
+  border-bottom: 2px solid #ffcc00;
   padding-bottom: 2px;
 }
 </style>

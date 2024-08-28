@@ -1,12 +1,16 @@
 <template>
   <div class="h-max p-4">
     <div class="w-full flex justify-center p-5 flex-col items-center">
-      <h1
-        class="w-full text-4xl didact-gothic-regula flex items-center before:content-[' '] before:mr-10 before:h-[1px] before:w-full before:bg-zinc-600 after:content-[' '] after:ml-10 after:h-[1px] after:w-full after:bg-zinc-600"
-      >
-        Carta de Platos
-      </h1>
-      <p class="text-lg text-center py-5 px-10">
+      <div class="w-full flex flex-col justify-center items-center">
+        <img src="../../images/food-divider-1.svg" alt="" />
+        <h1
+          class="text-3xl md:text-4xl grow-0 w-full didact-gothic-regular flex items-center before:content-[' '] before:mr-2 md:before:mr-5 before:h-[1px] before:grow before:bg-zinc-600 after:content-[' '] after:ml-2 md:after:ml-5 after:h-[1px] after:grow after:bg-zinc-600"
+        >
+          Carta de Platos
+        </h1>
+        <img src="../../images/food-ender-1.svg" alt="" />
+      </div>
+      <p class="text-lg text-justify py-5 px-10">
         Ofrecemos un menú variado con nuestras especialidades en delicioso Pollo
         a la brasa 7 sabores y los crocantes chicharrones de pollo, disponibles
         para disfrutar en nuestros locales o a través de nuestro servicio de
