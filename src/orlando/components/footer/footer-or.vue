@@ -1,82 +1,62 @@
 <template>
   <div
-    class="w-full bg-black h-[40vh] flex justify-center items-center flex-col"
+    class="w-full bg-black flex justify-center items-center flex-col p-5 h-max"
   >
-    <div class="w-10/12 h-[30vh] flex flex-row justify-evenly">
-      <div class="w-1/4">
-        <div>
-          <h1 class="tex-2xl underlinediv text-white">Nosotros</h1>
+    <div class="flex flex-row justify-evenly gap-2">
+      
+      <div class="w-full p-4">
+        <div class="flex items-baseline gap-2">
+          <h1 class="text-3xl didact-gothic-regular text-yellow-500">Contáctanos</h1>
+          <i class="pi pi-phone text-yellow-500 text-xl"></i>
         </div>
         <div>
-          <p class="text-white text-justify">
-            En "Orlandos", nos dedicamos a ofrecer el mejor chicharrón de pollo
-            y pollo a la brasa en Nasca, acompañado de nuestra exclusiva Salsa 7
-            Sabores y el auténtico ají de Nasca. Con una tradición de sabor y
-            calidad, brindamos a nuestros clientes una experiencia culinaria
-            única en un ambiente familiar y acogedor.
-          </p>
-        </div>
-      </div>
-      <div class="w-1/4">
-        <div>
-          <h1 class="tex-2xl underlinediv text-white">Servicios</h1>
-        </div>
-        <div>
-          <p class="text-white text-justify">
-            Ofrecemos un menú variado con nuestras especialidades en chicharrón
-            de pollo y pollo a la brasa, disponibles para disfrutar en nuestros
-            locales o a través de nuestro servicio de entrega a domicilio.
-            Además, contamos con opciones de catering para eventos y promociones
-            exclusivas para nuestros clientes frecuentes.
-          </p>
-        </div>
-      </div>
-      <div class="w-1/4">
-        <div>
-          <h1 class="tex-2xl underlinediv text-white">Contáctanos</h1>
-        </div>
-        <div>
-          <p class="text-white text-justify">
+          <p class="text-white text-justify my-1 text-sm">
             Visítanos en nuestros locales en Vista Alegre y Nasca, donde siempre
             te recibiremos con los brazos abiertos. Puedes contactarnos para
             realizar pedidos o reservas, y seguirnos en nuestras redes sociales
             para estar al tanto de nuestras promociones y novedades.
           </p>
+          <div class="flex justify-end gap-2">
+            <a
+              href="https://www.facebook.com/PolleriaOrlando?locale=es_LA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+                alt="Facebook"
+                class="w-8 h-8"
+              />
+            </a>
+            <a
+              href="https://wa.me/51978800056"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+                alt="WhatsApp"
+                class="w-8 h-8"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="w-full flex justify-evenly">
-      <div class="text-white">
+    <div class="w-full flex flex-col items-center text-sm">
+      <span class="text-white">Esta pagina fue creada por Kipuh!</span>
+      <span class="text-white">
         © 2024, Orlandos | Todos los derechos reservados
-      </div>
-      <div class="text-white">Esta pagina fue creada por Kipuh!</div>
-      <div class="text-white">
-        <a
-          href="https://www.facebook.com/PolleriaOrlando?locale=es_LA"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="pi pi-facebook mr-3 text-blue-400 text-3xl"></i>
-        </a>
-        <a
-          href="https://wa.me/51978800056"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="pi pi-whatsapp text-green-400 text-3xl"></i>
-        </a>
-      </div>
+      </span>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
 .underlinediv {
-  border-bottom: 3px solid #ffcc00;
+  border-bottom: 2px solid #ffcc00;
   padding-bottom: 2px;
 }
 </style>

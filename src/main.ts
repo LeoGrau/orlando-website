@@ -10,6 +10,12 @@ import App from './App.vue'
 import Button from 'primevue/button'
 import Carousel from 'primevue/carousel';
 
+import Tabs from 'primevue/tabs';
+import TabList from 'primevue/tablist';
+import Tab from 'primevue/tab';
+import TabPanels from 'primevue/tabpanels';
+import TabPanel from 'primevue/tabpanel';
+
 // Primevue Icons
 import 'primeicons/primeicons.css'
 
@@ -87,4 +93,12 @@ updatePreset({
 app.component('pv-button', Button)
 app.component('pv-carousel', Carousel)
 
+app.component('pv-tabs', Tabs)
+app.component('pv-tab-list', TabList)
+app.component('pv-tab', Tab)
+app.component('pv-tab-panels', TabPanels)
+app.component('pv-tab-panel', TabPanel)
+
+
 app.mount("#app")
+
