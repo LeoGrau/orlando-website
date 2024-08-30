@@ -138,44 +138,44 @@ const currency = ref(availableCurrencies.value[0]);
 const topSevenFavorites = ref([
   {
     imageUrl:
-      "https://scontent.fpio3-1.fna.fbcdn.net/v/t39.30808-6/398027037_837183284768784_4333519193526618187_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=yjj95IYpYHEQ7kNvgH3Uz1w&_nc_ht=scontent.fpio3-1.fna&oh=00_AYCl8ftfycC1tiryZNyiMRkK1QHrOnYvcRk8WdvQrInj1Q&oe=66D02DD7",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/chicharron-pollo.jpg",
     name: "1/4 Chicharron de Pollo",
     price: 24,
   },
   {
     imageUrl:
-      "https://scontent.fpio3-1.fna.fbcdn.net/v/t39.30808-6/337687435_875489670188295_2880514990359156885_n.png?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XY3GoDIRKsQQ7kNvgGgi1GD&_nc_ht=scontent.fpio3-1.fna&oh=00_AYAjar5Fm8Gs0_UnjzkQgvbEIe18NdmyihH-NQ_LWhvuLA&oe=66D049F0",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/pollo-brasa.jpg",
     name: "1/4 de Pollo a la Brasa",
     price: 27,
   },
   {
     imageUrl:
-      "https://scontent.fpio3-1.fna.fbcdn.net/v/t39.30808-6/447193791_956585819495196_2052375901242093334_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=j0if0x63_ZkQ7kNvgFb8Yh9&_nc_ht=scontent.fpio3-1.fna&_nc_gid=A8KvkGQGmaBt-8vgabRaKG_&oh=00_AYBGzciQGyfFaPtsAf2VYkwXQyB-J2uqbGxbSa2ZwPW39A&oe=66D04D70",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/mostrito.jpg",
     name: "Mostrito a la Brasa",
     price: 27,
   },
   {
     imageUrl:
-      "https://scontent.fpio3-1.fna.fbcdn.net/v/t39.30808-6/434487798_921349746352137_566529925219583146_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ozuOgS8UNzsQ7kNvgH4iaNM&_nc_ht=scontent.fpio3-1.fna&oh=00_AYDBTl2p0UsojOQmbhIyssKm31V28askoD_lUMUKgzdO2A&oe=66D02E88",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/milanesa.jpg",
     name: "Milanesa de Pollo",
     price: 30,
   },
   {
     imageUrl:
-      "https://scontent.fpio3-1.fna.fbcdn.net/v/t39.30808-6/449958789_976410930846018_4192329271915356286_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7eDBMqw3cJMQ7kNvgG6oGUN&_nc_ht=scontent.fpio3-1.fna&oh=00_AYAjxeL_vifKXjY4uCAmml4l_28aLFCBnKY86PIfXdmHIw&oe=66D01C47",
-    name: "1/4 Chicharron de Pollo",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/lomo-saltado.jpg",
+    name: "Lomo Saltado",
     price: 24,
   },
   {
     imageUrl:
-      "https://scontent.fpio3-1.fna.fbcdn.net/v/t39.30808-6/398027037_837183284768784_4333519193526618187_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=yjj95IYpYHEQ7kNvgH3Uz1w&_nc_ht=scontent.fpio3-1.fna&oh=00_AYCl8ftfycC1tiryZNyiMRkK1QHrOnYvcRk8WdvQrInj1Q&oe=66D02DD7",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/tallarin.jpg",
     name: "Tallarin Saltado",
     price: 24,
   },
   {
     imageUrl:
-      "https://scontent.fpio3-1.fna.fbcdn.net/v/t39.30808-6/440404127_937535644733547_4952781826825298586_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tEK5b3Siv_MQ7kNvgGP22m6&_nc_ht=scontent.fpio3-1.fna&oh=00_AYDhlAMXJs6eA0llGQ5bBqX1ATeiTv6f_mPjv0V4lKDQyg&oe=66D02F56",
-    name: "Arroz Chaufa de Pollo",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/chaufa.jpg",
+    name: "Arroz Chaufa",
     price: 24,
   },
 ] as Array<FoodItem>);
