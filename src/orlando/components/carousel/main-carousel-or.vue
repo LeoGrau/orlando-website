@@ -59,7 +59,7 @@ const imageSet = ref([
   {
     id: 3,
     imageUrl:
-      "https://scontent.fpio3-1.fna.fbcdn.net/v/t39.30808-6/447957501_959543415866103_6963495505040046755_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2QKZZWluee0Q7kNvgGEE88q&_nc_ht=scontent.fpio3-1.fna&oh=00_AYCZDFNuhHDmi2JTX3HHu6Atun1M5ej-axYoXF-xSLz2Lg&oe=66D03B30",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/pollo-brasa.jpg",
   },
 ]);
 
