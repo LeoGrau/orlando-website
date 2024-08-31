@@ -44,7 +44,7 @@ const imageSet = ref([
   {
     id: 0,
     imageUrl:
-      "https://www.peru.travel/Contenido/General/Imagen/es/263/1.1/brasa-ds.jpg",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/pollo-brasa-2.jpg",
   },
   {
     id: 1,
