@@ -45,7 +45,7 @@
     <div class="lg:w-1/2 flex justify-center overflow-hidden">
       <img
         class="object-cover max-w-none w-full"
-        src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2024/02/empleados-en-los-restaurantes-de-pollo.webp?fit=1000%2C706&ssl=1"
+        src="https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/marketing/moviendo-pollo.jpg"
         alt=""
       />
     </div>

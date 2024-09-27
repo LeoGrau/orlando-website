@@ -34,8 +34,8 @@
               v-for="foodItem in topSevenFavorites"
               class="flex items-center justify-evenly shadow-md rounded-md p-3 border-zinc-100 border"
             >
-              <img class="w-1/3" :src="foodItem.imageUrl" />
-              <div class="flex flex-col justify-center items-center">
+              <img class="w-2/5 object-cover " :src="foodItem.imageUrl" />
+              <div class="flex flex-col justify-center items-center m-1 w-1/2">
                 <span class="text-lg font-medium text-black">
                   {{ foodItem.name }}</span
                 >
@@ -59,9 +59,9 @@
               v-for="menuItem in chaufaItems"
               class="flex items-center justify-evenly shadow-md rounded-md p-3 border-zinc-100 border"
             >
-              <img class="w-1/3" :src="menuItem.imageUrl" />
+              <img class="w-2/5 object-cover" :src="menuItem.imageUrl" />
               <div class="flex flex-col justify-center items-center">
-                <span class="text-lg font-medium text-black">
+                <span class="text-lg font-medium text-black w-1/2">
                   {{ menuItem.name }}</span
                 >
                 <span
@@ -183,7 +183,7 @@ const topSevenFavorites = ref([
 const chaufaItems = ref([
   {
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Aeropuerto_30042010.JPG",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/card/aeropuesto.jpg",
     name: "Aeropuerto pollo",
     price: 18,
   },
@@ -207,7 +207,7 @@ const chaufaItems = ref([
   },
   {
     imageUrl: "https://rikotonchicken.pe/wp-content/uploads/2023/06/05.png",
-    name: "Tallarín criollo carne",
+    name: "Tallarín criollo de carne",
     price: 22,
   },
   {
@@ -218,7 +218,7 @@ const chaufaItems = ref([
   },
   {
     imageUrl:
-      "https://media-cdn.tripadvisor.com/media/photo-s/0f/22/ac/a1/pechuga-de-pollo-a-la.jpg",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/card/pechuga-plancha.jpg",
     name: "Pechuga plancha",
     price: 22,
   },
@@ -233,7 +233,7 @@ const chaufaItems = ref([
 const soupItems = ref([
   {
     imageUrl:
-      "https://tofuu.getjusto.com/orioneat-prod/TrbaakvbkufSLgX6S-CaldoSinPresa.jpg",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/card/caldo-sin-presa.jpg",
     name: "Caldo sin presa",
     price: 10,
   },
@@ -245,13 +245,13 @@ const soupItems = ref([
   },
   {
     imageUrl:
-      "https://w7.pngwing.com/pngs/47/302/png-transparent-chicken-soup-solyanka-pea-soup-cafe-chicken-soup-food-animals-thumbnail.png",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/card/sustancia-pollo.jpg",
     name: "Sustancia pollo",
     price: 15,
   },
   {
     imageUrl:
-      "https://w7.pngwing.com/pngs/567/952/png-transparent-chicken-soup-chicken-sandwich-wrap-chick-fil-a-chicken-meat-soup-soup-food-recipe.png",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/card/dieta-pollo.jpg",
     name: "Dieta de pollo",
     price: 15,
   },
@@ -263,7 +263,7 @@ const soupItems = ref([
   },
   {
     imageUrl:
-      "https://media-cdn.tripadvisor.com/media/photo-s/1b/7c/a8/ce/caldo-de-gallina-en-corral.jpg",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/card/caldo-gallina.jpg",
     name: "Caldo de gallina",
     price: 16,
   },
@@ -275,7 +275,7 @@ const soupItems = ref([
   },
   {
     imageUrl:
-      "https://express.donangelo.pe/wp-content/uploads/2022/08/sopa-a-la-minuta.jpg",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/card/sopa-minuta.jpg",
     name: "Sopa minuta carne",
     price: 17,
   },
@@ -308,7 +308,7 @@ const drinks = ref([
   },
   {
     imageUrl:
-      "https://w7.pngwing.com/pngs/531/213/png-transparent-earl-grey-tea-roman-chamomile-anise-infusion-tea.png",
+      "https://www.consalud.es/estetic/uploads/s1/51/56/83/existe-una-gran-cantidad-de-tes-que-proporcionan-numerosos-beneficios-nutricionales.jpeg",
     name: "Té/Anis",
     price: 5,
   },

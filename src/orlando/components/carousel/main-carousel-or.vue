@@ -44,17 +44,17 @@ const imageSet = ref([
   {
     id: 0,
     imageUrl:
-      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/main/orlandos/pollo-brasa-2.jpg",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/marketing/comiendo.jpg",
   },
   {
     id: 1,
     imageUrl:
-      "https://portal.andina.pe/EDPFotografia3/thumbnail/2021/07/17/000790789W.jpg",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/marketing/pollo-entero.jpg",
   },
   {
     id: 2,
     imageUrl:
-      "https://polleriaslagranja.com/wp-content/uploads/2022/10/La-Granja-Real-Food-Chicken-Granja-Chicharron.png",
+      "https://raw.githubusercontent.com/Fabrizio-2025/image-store/refs/heads/main/orlandos/marketing/imagen-pollo.jpg",
   },
   {
     id: 3,
